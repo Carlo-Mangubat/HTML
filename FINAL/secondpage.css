@@ -1,0 +1,52 @@
+body{
+    position:relative;
+    min-height:100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://scontent.fmnl33-6.fna.fbcdn.net/v/t39.30808-6/509417962_1258934839576809_4484837204361009620_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeH9kh52ORR9vx-TLXye3ZlpHW43b0gsZggdbjdvSCxmCFoUYWb-2Yu0PCRdUmjzQL6Wm322YC4JZAHLVhGJN1UD&_nc_ohc=fP4L6roLevIQ7kNvwHccvMN&_nc_oc=AdmTTd97T7Ken0fiv3dpbZnZKf86A4n3S6z_ud9PvB8LPuUVT3zVLooXvY2OZokQ3uM1aXKXToNrfTi0X8SOHZfN&_nc_zt=23&_nc_ht=scontent.fmnl33-6.fna&_nc_gid=cCW0JMBSd4DMkpy6NqfnFw&oh=00_AfhH_8kz6yvoj9BWQlTW83oKw87Zb6dYsNM4MhvNhfGYhQ&oe=6910EB0C");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: blur(3px) brightness(0.8);
+    z-index: -1;
+}
+
+.header{
+    text-align: center;
+    margin: none auto;
+}
+
+.header h5{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    color: #263238;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin: none none;
+}
+.header img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin: none auto;
+}
+
+.title{
+    text-align: center;
+    margin: 20px auto 0 auto;
+    color: white;
+}
+
+.info, .contactinfo, .highlights{
+    color: white;
+}
