@@ -1,0 +1,122 @@
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://scontent.fmnl33-6.fna.fbcdn.net/v/t39.30808-6/509417962_1258934839576809_4484837204361009620_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeH9kh52ORR9vx-TLXye3ZlpHW43b0gsZggdbjdvSCxmCFoUYWb-2Yu0PCRdUmjzQL6Wm322YC4JZAHLVhGJN1UD&_nc_ohc=fP4L6roLevIQ7kNvwHccvMN&_nc_oc=AdmTTd97T7Ken0fiv3dpbZnZKf86A4n3S6z_ud9PvB8LPuUVT3zVLooXvY2OZokQ3uM1aXKXToNrfTi0X8SOHZfN&_nc_zt=23&_nc_ht=scontent.fmnl33-6.fna&_nc_gid=cCW0JMBSd4DMkpy6NqfnFw&oh=00_AfhH_8kz6yvoj9BWQlTW83oKw87Zb6dYsNM4MhvNhfGYhQ&oe=6910EB0C");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: blur(2px) brightness(0.8);
+  z-index: -1;
+}
+
+.up {
+  text-align: center;
+  margin: 60px auto 0 auto;
+}
+
+.up h2,
+.up h5,
+.up img {
+  margin: 0;
+  padding: 0;
+}
+
+.up h2 {
+  font-family: Arial ,sans-serif;
+  font-size: 2.1em;
+  color: #1a237e;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+
+.up h5 {
+  font-family: Arial ,sans-serif;
+  font-size: 1.15em;
+  color: #263238;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.up img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.login {
+  background: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px 50px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: Arial ,sans-serif;
+}
+
+#Username,
+#Password {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1em;
+  font-family: Arial ,sans-serif;
+}
+
+#Username:hover,
+#Password:hover {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  border: 1px solid #4221d3;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1em;
+  box-shadow: 0 0 5px #00008b;
+  font-family: Arial ,sans-serif;
+}
+
+#Username:active,
+#Password:active {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  border: 1px solid #241271;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1em;
+  box-shadow: 0 0 5px #00008b;
+  font-family: Arial ,sans-serif;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+  border: solid transparent;
+  border-radius: 6px;
+  font-size: 16px;  
+  transition: background-color 0.3s ease;
+  font-family: Arial ,sans-serif;
+}
+
+button:hover {
+  background-color: #0056b3;
+  padding: 12px 24px;
+  font-family: Arial ,sans-serif;
+  border: solid rgba(25, 25, 100, 0.5);
+}
