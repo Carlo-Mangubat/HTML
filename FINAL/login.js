@@ -11,5 +11,8 @@ document.querySelector('form').addEventListener('submit', function(event) {
     } else {
         // or else, stay parin sa first page
         alert('Invalid username and password');
+        document.getElementById('Username').value = ''; // ma c-clear username
+        document.getElementById('Password').value = ''; // pati yung password kasi mali
     }
 });
+
